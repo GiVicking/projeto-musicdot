@@ -1,9 +1,11 @@
 * {
     list-style: none;
     text-decoration: none;
+    line-height: 1.5rem;
 }
 body {
-    width: 940px;
+    width: 80%;
+    max-width: 940px;
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -15,48 +17,88 @@ body {
     font-size: 2rem;
 }
 .subtitulo {
+    font-size: 2rem;
+    margin-top: 7rem;
     border-bottom: 2px solid #000;
 }
-p{
-    text-align: justify;
+.diferenciais li {
+list-style-type: circle;
 }
-figure{
-    margin: 1rem;
-    padding:1rem;
-    padding-right: 18rem;
-    padding-bottom: 2rem;
+
+p{
+   text-align: justify;
+    margin-bottom:0;
+}
+
+.figura-matriz{
+    width: 48rem;
+   max-width: 100%;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    background-color:whitesmoke;
+    border: 1px solid lightgrey;
+}
+
+.familia-tupfeln{
+    width: 30rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 0.2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
+
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgrey;
 }
-figcaption{
-    margin-top: 10px;
-}
-.matriz-musicdot {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.familia-tupfeln{
-    width: 2.5rem;
-    float: right;
-}
-.figure-img{
+.all-family{
     width: 100%;
+    height: 100%;
+    float: right;
+   
 }
+.photo-matriz{
+height: 100%;
+width: 100%;
+padding: 1rem 0rem 0rem 0rem;
+}
+
+
 .contato-subtitulo{
-    display: inline;
+display: inline;
+line-height: 4rem;
+}
+.contato-secao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
+    }
+.contato-secao-tel{
+    margin-left: 32px;
 }
 .contato-info {
     margin: 16px 0 24px;
     padding-left: 32px;
 }
-.contato-info-titulo.contato-info-descricao{
+.info-titulo, .info-descricao{
     display: inline;
+    
 }
-.contato-info-descricao {
-margin-left: 10px;
+.info-descricao a {
+    color: #3d3d3d;
 }
-.contato-info-descricao a {
-    color:#3d3d3d;
+.rodape{
+    padding:1.75em 0;
+    font-size: 1.1rem;
+}
+.rodape-logo {
+width: 6em;
+}
+.rodape-cop{
+display: inline;
+margin-left: 1em;
 }
