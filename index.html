@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MusicDot</title>
     <link href="./img/favicon.ico" rel="icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="rodape.css">
 </head>
+
 <body>
 <!---------------------------------------Header------------------>
-<header>
+<header class="cabecalho">
 <a href="index.html">
-    <img src="./img/musicdot-logo-light.svg" title="Ir para página inicial do MusicDot"
+    <img  class="cabecalho_logo" src="./img/musicdot-logo-light.svg" title="Ir para página inicial do MusicDot"
     alt="MusicDot">
 </a>
 <!------------nav--------------------------------------------------->
 <nav>
-    <ul>
-        <li> <a href="./sobre.html#contato"> Contato </a> </li>
-        <li> <a href="#"> Entrar </a></li>
-        <li> <a href="#">Matricule-se</a></li>
+    <ul class="cabecalho_menu">
+        <li class="cabecalho_item-menu"> <a href="./sobre.html#contato"> Contato </a> </li>
+        <li class="cabecalho_item-menu"> <a href="#"> Entrar </a></li>
+        <li class="cabecalho_item-menu cabecalho_item-menu--matricular"> <a href="#">Matricule-se</a></li>
     </ul>
 </nav>
 </header>
@@ -29,8 +33,73 @@
 <main>
 Conteúdo principal
 </main>
-<footer>
-Rodapé
+<!------------------------------------------------------------------------------->
+<footer class="rodape">
+
+<section class="rodape_secao">
+    <img class="rodape_logo"src="img/logo.svg" alt="Logo da MusicDot">
+
+    <p class="rodape_infos-empresas">
+        AOVS Sistemas de Informática S.A.
+        <br>
+        CNPJ 05.555.382/0001-33
+        <br>
+        Telefone (11) 4118-3319
+    </p>
+    
+    <ul class="rodape_lista-midias-sociais">
+        <li class="rodape_item-midias-sociais">
+            <a href="https://www.facebook.com/gika.silva.560">
+            <img src="img/footer-icone-facebook.svg" alt="Music">
+            </a>
+        </li>
+        <li class="rodape_item-midias-sociais">
+            <a href="https://www.youtube.com/user/musicdotonline">
+            <img src="img/footer-icone-youtube.svg" alt=" MusicDot no Youtube">
+            </a>
+        </li>
+        <li class="rodape_item-midias-sociais">
+            <a href="https://www.instagram.com/musicdotonline/">
+                <img src="img/footer-icone-instagram.svg">
+            </a>
+        </li>
+</section>
+
+<section class="rodape_secao">
+    <h2 class="rodape_titulo"> Cursos da MusicDot </h2>
+    <nav>
+    <ul>
+    <li class="rodape_item-lista"><a href="#">Cursos de Teclado & Piano</a></li>
+    <li class="rodape_item-lista"></li><a href="#">Cursos de Violão/Guitarra</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Baixo</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Baixo</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Bateria</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Percussão</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Canto</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Áudio</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Teoria</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Sopro</a></li>
+    <li class="rodape_item-lista"><a href="#">Cursos de Cordas</a></li>
+    </ul>
+    </nav>
+    </section>
+
+    <section class="rodape_secao"> 
+        <h2 class="rodape_titulo"> MusicDot </h2>
+        <nav>
+        <ul>
+        <li class="rodape_item-lista"><a href="#">Apostila</a></li>
+        <li class="rodape_item-lista"><a href="#">E-book</a></li>
+        <li class="rodape_item-lista"><a href="#">Login</a></li>
+        <li class="rodape_item-lista"><a href="#">Matricule-se</a></li>
+        <li class="rodape_item-lista"><a href="#">Perguntas frequentes</a></li>
+        <li class="rodape_item-lista"><a href="#">Para Escolas</a></li>
+        <li class="rodape_item-lista"><a href="#">Contato</a></li>
+        <li class="rodape_item-lista"><a href="#">Para Escolas</a></li>
+        <li class="rodape_item-lista"><a href="#">Contato</a></li>
+        </ul>
+        </nav>
+        </section>
 </footer>
 
 
