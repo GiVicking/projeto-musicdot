@@ -9,13 +9,15 @@
     <link href="./img/favicon.ico" rel="icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="rodape.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
 </head>
 
 <body>
 <!---------------------------------------Header------------------>
-<header class="cabecalho">
+<header class="cabecalho container">
 <a href="index.html">
     <img  class="cabecalho_logo" src="./img/musicdot-logo-light.svg" title="Ir para página inicial do MusicDot"
     alt="MusicDot">
@@ -34,9 +36,9 @@
 Conteúdo principal
 </main>
 <!------------------------------------------------------------------------------->
-<footer class="rodape">
+<footer class="rodape container">
 
-<section class="rodape_secao">
+<section class="rodape_secao rodape_secao--sobre">
     <img class="rodape_logo"src="img/logo.svg" alt="Logo da MusicDot">
 
     <p class="rodape_infos-empresas">
@@ -47,25 +49,26 @@ Conteúdo principal
         Telefone (11) 4118-3319
     </p>
     
+    
     <ul class="rodape_lista-midias-sociais">
         <li class="rodape_item-midias-sociais">
             <a href="https://www.facebook.com/gika.silva.560">
-            <img src="img/footer-icone-facebook.svg" alt="Music">
+            <img src="img/footer-icone-facebook.svg" class="face"alt="Music">
             </a>
         </li>
         <li class="rodape_item-midias-sociais">
             <a href="https://www.youtube.com/user/musicdotonline">
-            <img src="img/footer-icone-youtube.svg" alt=" MusicDot no Youtube">
+            <img src="img/footer-icone-youtube.svg" class="youtube" alt=" MusicDot no Youtube">
             </a>
         </li>
         <li class="rodape_item-midias-sociais">
             <a href="https://www.instagram.com/musicdotonline/">
-                <img src="img/footer-icone-instagram.svg">
+                <img src="img/footer-icone-instagram.svg" class="insta">
             </a>
         </li>
 </section>
 
-<section class="rodape_secao">
+<section class="rodape_secao rodape_secao--cursos">
     <h2 class="rodape_titulo"> Cursos da MusicDot </h2>
     <nav>
     <ul>
@@ -84,7 +87,7 @@ Conteúdo principal
     </nav>
     </section>
 
-    <section class="rodape_secao"> 
+    <section class="rodape_secao rodape_secao--links"> 
         <h2 class="rodape_titulo"> MusicDot </h2>
         <nav>
         <ul>
@@ -100,9 +103,23 @@ Conteúdo principal
         </ul>
         </nav>
         </section>
-</footer>
+        <!--caixa email para receber lançamentos----------------------->
+        <section class="rodape_secao rodape_secao--newsletter">
+            <h2 class="rodape_titulo">
+               Receba novidades e lançamentos
+            </h2>
+            <p class="rodape_paragraph">Digite seu email pessoal: </p> 
+            
 
+            <form action="#" method="get" class="form-newsletter">
+                <label for="form-newsletter_label" class="form_newsletter_label" ></label>
 
+                <input id="email-newsletter" name="email-newsltter" type="email" class="form-newsletter_campo">
+            <button type="submit" class="form-newsletter_botao">Ok</button>
+            </form>
+        </section>
+        
+    </footer>
 
 </body>
 </html>

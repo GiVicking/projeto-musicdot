@@ -1,0 +1,42 @@
+.form-newsletter{
+    display:flex;
+    width: 90%;
+    height: 3rem;
+    margin-left: 3rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border:2px solid #e93d50;
+    background-color: #e93d50;
+    font-weight: bold;
+   
+   }
+   .rodape_paragraph{
+       margin-bottom: 0.5rem;
+       font-size: 0.7rem;
+   }
+   .form-newsletter_label{
+       position: absolute;
+       left: -10000px;
+       width: 1px;
+       height: 1px;
+       overflow: hidden;
+     
+   }
+   .form-newsletter_campo{
+       padding: .6rem .4rem; 
+       width: 70%;
+       flex-grow:1;
+       border: none;
+       }
+   .form-newsletter_botao{
+       flex-grow: 1;
+       border: none;
+       text-transform: uppercase;
+       font-weight: 600;
+       background-color: #e93d50;
+       color:#fff;
+   }
+   
+   
+   

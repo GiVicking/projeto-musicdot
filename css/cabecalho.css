@@ -5,14 +5,11 @@
     
     font-weight: bold;
     text-transform: uppercase;
-   
-    
-    
-}
+    }
 .cabecalho_logo {
     padding: 1.6em;
-    width: 26em;
     font-size: 0.70rem;
+   
 }
 .cabecalho_menu{
     display: flex;
@@ -29,7 +26,8 @@
 
 @media (min-width:640px) {
     .cabecalho{
-        padding:0 5%;
+        padding-top: 0;
+        padding-bottom: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -45,6 +43,7 @@
 @media (min-width:770px){
     
     .cabecalho_item-menu--matricular {
+        margin-right: 1.2rem;
         margin-left: 1.42em;
         border-radius: 6px;
         background-color:#e93d50;;
@@ -54,10 +53,4 @@
         padding: 1.8em 3.5em;
     }
 }
-@media (min-width: 1066px) {
 
-    .cabecalho{
-        padding-left: calc((100% -960px)/2);
-        padding-right: calc((100% -960px)/2);
-    }
-}
