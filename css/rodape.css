@@ -38,7 +38,9 @@ width: 100%;
     font-weight: 500;
     margin: 0.625em 0;
 }
-
+.rodape_secao--newsletter{
+    margin-right: 2rem;
+}
 @media (max-width: 640px) {
     .rodape_secao + .rodape_secao{
         margin-top: 2em;
