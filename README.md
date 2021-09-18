@@ -42,7 +42,7 @@ Prática e aperfeiçoamento de Front-End
 <img src="./img/pagina1.png" alt="Tela Principal"> 
 <br>
 
- #  Como rodar
+ # :four_leaf_clover::computer: Como rodar
 
 ```bash
 
