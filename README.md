@@ -7,7 +7,7 @@
 
 ## 💻 Sobre o projeto
 
-:shipit: Music Dot? - O projeto apresenta uma plataforma de apresentação do site , onde mostra todos os instrumentos a qual a escola Music Dot oferece, logo em seu Layoult.
+:smiling_face_with_three_hearts: :notes: Music Dot? - O projeto apresenta uma plataforma de apresentação do site , onde mostra todos os instrumentos a qual a escola Music Dot oferece, logo em seu Layoult.
 
 Temos na página principal a apresentação e beneficios do curso, cards com os valores.
 
@@ -15,7 +15,7 @@ Inserção de video de apresentação, e videos contidos no canal do youtube , o
 
 E para finalizar a uma página de matriculas onde com o JavaScript temos a soma dos cursos escolhidos , e direcionamento para realização da matricula  
 
-:dog: :cat: :rabbit:   
+ :guitar: :musical_note: :notes: :microphone: :musical_keyboard: :drum:
 
 ## :bulb: Ideia do Projeto
 
@@ -42,7 +42,7 @@ Prática e aperfeiçoamento de Front-End
 <img src="./img/pagina1.png" alt="Tela Principal"> 
 <br>
 
- # 👷 Como rodar
+ #  Como rodar
 
 ```bash
 
@@ -50,7 +50,7 @@ https://givicking.github.io/projeto-musicdot/
 
 ```
 
-## :mortar_board: Autora
+## :100: :information_desk_person: Autora
 
 <table align="center">
     <tr>
