@@ -2,7 +2,7 @@
 ## Music Dot
 
 <h4 align="center"> 
-	🚧  Music Dot é um projeto de um site de aula de musica sua realização é para a prática e aperfeiçoamento de HTML5,CSS3, JS ✔️ 🚧
+	🚧  Music Dot é um projeto proposto pela Caelum ,um site de aulas de musica totalmente responsivo , adapto para todos os tipos de telas , sua realização foi para o aperfeiçoamento e prática HTML5,CSS3, JS, Bootstrap.css, Bootstrap.JS, JQuery, UX|UI, First Mobile.  ✔️ 🚧
 </h4>
 
 ## 💻 Sobre o projeto
@@ -20,7 +20,7 @@ E para finalizar a uma página de matriculas onde com o JavaScript temos a soma 
 ## :bulb: Ideia do Projeto
 
 ```bash
-Prática e aperfeiçoamento de Front-End
+Práticas e aperfeiçoamento de Front-End
 
 ```
 ## 🖼 Screenshot das telas da aplicação 
@@ -33,7 +33,7 @@ Prática e aperfeiçoamento de Front-End
 ## 🖼 Tela da apresentação dos videos página do Youtube. 
 
 <br>
-<img src="./img/pagina2.png" alt="Tela Principal"> 
+<img src="./img/pagina4.png" alt="Tela videos do Youtube"> 
 <br>
 
 ## 🖼 Tela da soma de cursos escolhidos para a realização da matricula.  
